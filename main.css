@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Acme';
+    src:url(Acme/Acme-Regular.ttf)
+}
+
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    min-height: 100vh;
+    font-family: 'Acme';
+}
+
+
+.Yourlist{ 
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #bdbbff;
+    background-color: white;
+    border-radius: 20px; 
+    border: solid 2px #ffe6f5;
+    border-radius: 20px;
+   margin-top: 420px;
+   margin-bottom: 40px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 15px 50px 15px;
+   
+}
+/* End of header styling */
+
+
+
+.Form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Form input{
+     border-radius: 10px;
+     border: none;
+     margin: none;
+     background-color: #ffe6f5;
+    padding: 15px 65px 15px;
+     margin-left: -120px;
+     
+}
+
+
+.Form button{
+     border-radius: 15px;
+    background-color:#ffe6f5; 
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 10px;
+    margin-left: 10px;
+    color: #bdbbff;
+    border-radius: 50px;
+    
+    
+}
+
+.overall{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 20px 200px 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+     backdrop-filter: blur(100px);
+    box-shadow: 0 0 100px pink(0, 0, 0, 0,5);
+    border: solid 2px #ffe6f5;
+
+}
+
+.look{
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+   
+}
+
+#TheList{
+    margin-top: 30px;
+    
+}
+
+
+.rem{
+    position: absolute;
+    margin-left: 275px;
+    border-radius: 20px;
+    background-color:#ffe6f5; 
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #bdbbff;
+    
+} 
+
+.rem:hover{
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+   
+    
+
+
+
+
+
+
+
+
+
