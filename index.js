@@ -4,8 +4,6 @@ const addbutton = document.getElementById("addtask")
 
 
 
-
-
 function createtask(){
     let YourTask = document.getElementById('YourTask');
     let listitem = document.createElement('li');
@@ -20,12 +18,14 @@ function createtask(){
 }
 addbutton.addEventListener('click', createtask)
 
+
 TheList.addEventListener("click", function(e){
     if(e.target.tagName === "SPAN"){
         e.target.parentElement.remove();
     }     
     
 })
+
 
 TheList.addEventListener("click", function(f){
     if(f.target.tagName === "LI"){
